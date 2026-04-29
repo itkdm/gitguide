@@ -1,0 +1,709 @@
+[2m21:34:52[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\develop\project\GitGuide\src\App.tsx: 'import' and 'export' may only appear at the top level. (1299:0)
+
+[0m [90m 1297 |[31m }
+ [90m 1298 |[31m
+[31m[1m>[22m[31m[90m 1299 |[31m [36mexport[31m [36mdefault[31m [36mfunction[31m [33mApp[31m() {
+ [90m      |[31m [31m[1m^[22m[31m
+ [90m 1300 |[31m   [36mconst[31m [progress[33m,[31m setProgress] [33m=[31m useState[33m<[31m[33mProgressState[31m[33m>[31m(() [33m=>[31m loadProgress())
+ [90m 1301 |[31m
+ [90m 1302 |[31m   useEffect(() [33m=>[31m {[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/develop/project/GitGuide/src/App.tsx[39m:1299:0
+[33m  1297 |  }
+  1298 |  
+  1299 |  export default function App() {
+       |  ^
+  1300 |    const [progress, setProgress] = useState<ProgressState>(() => loadProgress())
+  1301 |  [39m
+      at constructor (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12871:18)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseFunctionBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12100:24)
+      at TypeScriptParserMixin.parseArrowExpression (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12075:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11687:12)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseVar (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13384:91)
+      at TypeScriptParserMixin.parseVarStatement (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13230:10)
+      at TypeScriptParserMixin.parseVarStatement (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9408:31)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12851:23)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12612:25)
+      at TypeScriptParserMixin.parse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14488:25)
+      at TypeScriptParserMixin.parse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10126:18)
+      at parse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14522:38)
+      at parser (D:\develop\project\GitGuide\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\develop\project\GitGuide\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\develop\project\GitGuide\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (D:\develop\project\GitGuide\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (D:\develop\project\GitGuide\node_modules\gensync\index.js:261:32)
+      at D:\develop\project\GitGuide\node_modules\gensync\index.js:273:13
+[2m21:39:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/content.ts:21:66: ERROR: Expected "}" but found "'s role for developers worldwide.'"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/content.ts[39m:21:66
+[33m  
+  [33mExpected "}" but found "'s role for developers worldwide.'"[33m
+  19 |      },
+  20 |      summary: {
+  21 |        en: 'Explore real open-source projects to understand GitHub''s role for developers worldwide.',
+     |                                                                    ^
+  22 |          zh: '通过真实的开源项目探索，了解 GitHub 在全世界开发者协作中的作用。'
+  23 |      },
+  [39m
+[2m21:39:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/content.ts:21:66: ERROR: Expected "}" but found "'s role for developers worldwide.'"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/content.ts[39m:21:66
+[33m  
+  [33mExpected "}" but found "'s role for developers worldwide.'"[33m
+  19 |      },
+  20 |      summary: {
+  21 |        en: 'Explore real open-source projects to understand GitHub''s role for developers worldwide.',
+     |                                                                    ^
+  22 |          zh: '通过真实的开源项目探索，了解 GitHub 在全世界开发者协作中的作用。'
+  23 |      },
+  [39m
+[2m21:39:32[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/content.ts:21:66: ERROR: Expected "}" but found "'s role for developers worldwide.'"[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/content.ts[39m:21:66
+[33m  
+  [33mExpected "}" but found "'s role for developers worldwide.'"[33m
+  19 |      },
+  20 |      summary: {
+  21 |        en: 'Explore real open-source projects to understand GitHub''s role for developers worldwide.',
+     |                                                                    ^
+  22 |          zh: '通过真实的开源项目探索，了解 GitHub 在全世界开发者协作中的作用。'
+  23 |      },
+  [39m
+      at failureErrorWithLog (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1748:15)
+      at D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1017:50
+      at responseCallbacks.<computed> (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:884:9)
+      at handleIncomingPacket (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:939:12)
+      at Socket.readFromStdout (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:862:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m21:39:56[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/content.ts:21:66: ERROR: Expected "}" but found "'s role for developers worldwide.'"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/content.ts[39m:21:66
+[33m  
+  [33mExpected "}" but found "'s role for developers worldwide.'"[33m
+  19 |      },
+  20 |      summary: {
+  21 |        en: 'Explore real open-source projects to understand GitHub''s role for developers worldwide.',
+     |                                                                    ^
+  22 |          zh: '通过真实的开源项目探索，了解 GitHub 在全世界开发者协作中的作用。'
+  23 |      },
+  [39m
+[2m21:39:56[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/content.ts:21:66: ERROR: Expected "}" but found "'s role for developers worldwide.'"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/content.ts[39m:21:66
+[33m  
+  [33mExpected "}" but found "'s role for developers worldwide.'"[33m
+  19 |      },
+  20 |      summary: {
+  21 |        en: 'Explore real open-source projects to understand GitHub''s role for developers worldwide.',
+     |                                                                    ^
+  22 |          zh: '通过真实的开源项目探索，了解 GitHub 在全世界开发者协作中的作用。'
+  23 |      },
+  [39m
+[2m21:39:56[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/content.ts:21:66: ERROR: Expected "}" but found "'s role for developers worldwide.'"[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/content.ts[39m:21:66
+[33m  
+  [33mExpected "}" but found "'s role for developers worldwide.'"[33m
+  19 |      },
+  20 |      summary: {
+  21 |        en: 'Explore real open-source projects to understand GitHub''s role for developers worldwide.',
+     |                                                                    ^
+  22 |          zh: '通过真实的开源项目探索，了解 GitHub 在全世界开发者协作中的作用。'
+  23 |      },
+  [39m
+      at failureErrorWithLog (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1748:15)
+      at D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1017:50
+      at responseCallbacks.<computed> (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:884:9)
+      at handleIncomingPacket (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:939:12)
+      at Socket.readFromStdout (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:862:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m21:40:49[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\develop\project\GitGuide\src\App.tsx: Unterminated string constant. (62:8)
+
+[0m [90m 60 |[31m   homeTagline[33m:[31m {
+ [90m 61 |[31m     en[33m:[31m [32m'Bilingual GitHub Learning Lab'[31m[33m,[31m
+[31m[1m>[22m[31m[90m 62 |[31m     zh[33m:[31m [32m'鍙岃 GitHub 瀛︿範瀹為獙瀹?[31m
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m 63 |[31m   }[33m,[31m
+ [90m 64 |[31m   homeTitle[33m:[31m {
+ [90m 65 |[31m     en[33m:[31m [32m'Your first GitHub lesson starts with one safe click.'[31m[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/develop/project/GitGuide/src/App.tsx[39m:62:8
+[33m  60 |    homeTagline: {
+  61 |      en: 'Bilingual GitHub Learning Lab',
+  62 |      zh: '鍙岃 GitHub 瀛︿範瀹為獙瀹?
+     |          ^
+  63 |    },
+  64 |    homeTitle: {[39m
+      at constructor (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6599:19)
+      at Object.unterminated (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5664:20)
+      at readStringContents (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5406:16)
+      at TypeScriptParserMixin.readString (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6498:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6258:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4797:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9987:11)
+      at TypeScriptParserMixin.nextToken (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5782:10)
+      at TypeScriptParserMixin.next (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5692:10)
+      at TypeScriptParserMixin.eat (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5696:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11949:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11978:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9744:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11915:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11832:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11950:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11978:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9744:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11915:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11832:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:17)
+[2m21:43:40[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\develop\project\GitGuide\src\App.tsx: Unterminated string constant. (62:8)
+
+[0m [90m 60 |[31m   homeTagline[33m:[31m {
+ [90m 61 |[31m     en[33m:[31m [32m'Bilingual GitHub Learning Lab'[31m[33m,[31m
+[31m[1m>[22m[31m[90m 62 |[31m     zh[33m:[31m [32m'鍙岃 GitHub 瀛︿範瀹為獙瀹?[31m
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m 63 |[31m   }[33m,[31m
+ [90m 64 |[31m   homeTitle[33m:[31m {
+ [90m 65 |[31m     en[33m:[31m [32m'Your first GitHub lesson starts with one safe click.'[31m[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/develop/project/GitGuide/src/App.tsx[39m:62:8
+[33m  60 |    homeTagline: {
+  61 |      en: 'Bilingual GitHub Learning Lab',
+  62 |      zh: '鍙岃 GitHub 瀛︿範瀹為獙瀹?
+     |          ^
+  63 |    },
+  64 |    homeTitle: {[39m
+      at constructor (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6599:19)
+      at Object.unterminated (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5664:20)
+      at readStringContents (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5406:16)
+      at TypeScriptParserMixin.readString (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6498:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6258:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4797:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9987:11)
+      at TypeScriptParserMixin.nextToken (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5782:10)
+      at TypeScriptParserMixin.next (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5692:10)
+      at TypeScriptParserMixin.eat (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5696:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11949:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11978:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9744:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11915:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11832:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseObjectProperty (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11950:83)
+      at TypeScriptParserMixin.parseObjPropValue (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11978:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9744:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11915:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11832:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:17)
+[2m21:44:15[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\develop\project\GitGuide\src\App.tsx: Expected corresponding JSX closing tag for <span>. (188:4)
+
+[0m [90m 186 |[31m       [33m<[31m[33mspan[31m className[33m=[31m[32m"divider"[31m[33m>[31m[33m/[31m[33m<[31m[33m/[31m[33mspan[31m[33m>[31m
+ [90m 187 |[31m       [33m<[31m[33mspan[31m className[33m=[31m{language [33m===[31m [32m'en'[31m [33m?[31m [32m'active'[31m [33m:[31m [32m''[31m}[33m>[31m[33mEn[31m[33m<[31m[33m/[31m[33mspan[31m[33m>[31m
+[31m[1m>[22m[31m[90m 188 |[31m     [33m<[31m[33m/[31m[33mbutton[31m[33m>[31m
+ [90m     |[31m     [31m[1m^[22m[31m
+ [90m 189 |[31m   [33m<[31m[33m/[31m[33mmotion[31m[33m.[31mheader[33m>[31m
+ [90m 190 |[31m   )
+ [90m 191 |[31m }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/develop/project/GitGuide/src/App.tsx[39m:188:4
+[33m  193 |  const PageLayout = ({ children, language, onLanguageToggle }: LayoutProps) => (
+  194 |    <div className="page-shell">
+  195 |      <AppHeader language={language} onLanguageToggle={onLanguageToggle} />
+      |                                          ^
+  196 |      <motion.main
+  197 |        initial={{ opacity: 0 }}[39m
+      at constructor (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4727:16)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElement (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10831:21)
+      at D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9775:18)
+      at D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseFunctionBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12100:24)
+      at TypeScriptParserMixin.parseArrowExpression (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12075:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11687:12)
+      at TypeScriptParserMixin.parseExprAtom (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11331:23)
+[2m21:44:54[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\develop\project\GitGuide\src\App.tsx: Unexpected token (1:46)
+
+[0m[31m[1m>[22m[31m[90m 1 |[31m ﻿[36mimport[31m { useEffect[33m,[31m useMemo[33m,[31m useState } [36mfrom[31m [32m`[31m
+ [90m   |[31m                                               [31m[1m^[22m[31m
+ [90m 2 |[31m [32mimport { Navigate, Route, Routes, useNavigate, useParams } from `[31m
+ [90m 3 |[31m [36mimport[31m { motion } [36mfrom[31m [32m`[31m
+ [90m 4 |[31m [32mimport { `[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/develop/project/GitGuide/src/App.tsx[39m:1:46
+[33m  1  |  ﻿import { useEffect, useMemo, useState } from `
+     |                                                ^
+  2  |  import { Navigate, Route, Routes, useNavigate, useParams } from `
+  3  |  import { motion } from `[39m
+      at constructor (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.parseImportSource (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14258:32)
+      at TypeScriptParserMixin.parseImportSourceAndAttributes (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14249:24)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14244:17)
+      at TypeScriptParserMixin.parseImport (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14235:17)
+      at TypeScriptParserMixin.parseImport (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9353:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12876:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12612:25)
+      at TypeScriptParserMixin.parse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14488:25)
+      at TypeScriptParserMixin.parse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10126:18)
+      at parse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14522:38)
+      at parser (D:\develop\project\GitGuide\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\develop\project\GitGuide\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\develop\project\GitGuide\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (D:\develop\project\GitGuide\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (D:\develop\project\GitGuide\node_modules\gensync\index.js:261:32)
+      at D:\develop\project\GitGuide\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\develop\project\GitGuide\node_modules\gensync\index.js:223:11)
+      at D:\develop\project\GitGuide\node_modules\gensync\index.js:189:28
+      at D:\develop\project\GitGuide\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at D:\develop\project\GitGuide\node_modules\gensync\index.js:113:33
+      at step (D:\develop\project\GitGuide\node_modules\gensync\index.js:287:14)
+      at D:\develop\project\GitGuide\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\develop\project\GitGuide\node_modules\gensync\index.js:223:11)
+[2m21:45:00[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\develop\project\GitGuide\src\App.tsx: Unexpected token (1:46)
+
+[0m[31m[1m>[22m[31m[90m 1 |[31m ﻿[36mimport[31m { useEffect[33m,[31m useMemo[33m,[31m useState } [36mfrom[31m [32m`[31m
+ [90m   |[31m                                               [31m[1m^[22m[31m
+ [90m 2 |[31m [32mimport { Navigate, Route, Routes, useNavigate, useParams } from `[31m
+ [90m 3 |[31m [36mimport[31m { motion } [36mfrom[31m [32m`[31m
+ [90m 4 |[31m [32mimport { `[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/develop/project/GitGuide/src/App.tsx[39m:1:46
+[33m  1  |  ﻿import { useEffect, useMemo, useState } from `
+     |                                                ^
+  2  |  import { Navigate, Route, Routes, useNavigate, useParams } from `
+  3  |  import { motion } from `[39m
+      at constructor (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.parseImportSource (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14258:32)
+      at TypeScriptParserMixin.parseImportSourceAndAttributes (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14249:24)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14244:17)
+      at TypeScriptParserMixin.parseImport (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14235:17)
+      at TypeScriptParserMixin.parseImport (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9353:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12876:27)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12612:25)
+      at TypeScriptParserMixin.parse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14488:25)
+      at TypeScriptParserMixin.parse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10126:18)
+      at parse (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:14522:38)
+      at parser (D:\develop\project\GitGuide\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\develop\project\GitGuide\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\develop\project\GitGuide\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (D:\develop\project\GitGuide\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (D:\develop\project\GitGuide\node_modules\gensync\index.js:261:32)
+      at D:\develop\project\GitGuide\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\develop\project\GitGuide\node_modules\gensync\index.js:223:11)
+      at D:\develop\project\GitGuide\node_modules\gensync\index.js:189:28
+      at D:\develop\project\GitGuide\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at D:\develop\project\GitGuide\node_modules\gensync\index.js:113:33
+      at step (D:\develop\project\GitGuide\node_modules\gensync\index.js:287:14)
+      at D:\develop\project\GitGuide\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\develop\project\GitGuide\node_modules\gensync\index.js:223:11)
+[2m21:54:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/progress.ts:23:4: ERROR: Expected identifier but found ","
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/progress.ts[39m:23:4
+[33m  
+  [33mExpected identifier but found ","[33m
+  21 |      'read-repository': buildInitialCourseState('read-repository'),
+  22 |      'star-and-watch': buildInitialCourseState('star-and-watch'),
+  23 |      ,
+     |      ^
+  24 |      
+  25 |    }
+  [39m
+[2m21:54:42[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/progress.ts:23:4: ERROR: Expected identifier but found ","[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/progress.ts[39m:23:4
+[33m  
+  [33mExpected identifier but found ","[33m
+  21 |      'read-repository': buildInitialCourseState('read-repository'),
+  22 |      'star-and-watch': buildInitialCourseState('star-and-watch'),
+  23 |      ,
+     |      ^
+  24 |      
+  25 |    }
+  [39m
+      at failureErrorWithLog (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1748:15)
+      at D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1017:50
+      at responseCallbacks.<computed> (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:884:9)
+      at handleIncomingPacket (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:939:12)
+      at Socket.readFromStdout (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:862:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m21:54:47[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/progress.ts:23:4: ERROR: Expected identifier but found ","
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/progress.ts[39m:23:4
+[33m  
+  [33mExpected identifier but found ","[33m
+  21 |      'read-repository': buildInitialCourseState('read-repository'),
+  22 |      'star-and-watch': buildInitialCourseState('star-and-watch'),
+  23 |      ,
+     |      ^
+  24 |      
+  25 |    }
+  [39m
+[2m21:54:47[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/progress.ts:23:4: ERROR: Expected identifier but found ","[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/progress.ts[39m:23:4
+[33m  
+  [33mExpected identifier but found ","[33m
+  21 |      'read-repository': buildInitialCourseState('read-repository'),
+  22 |      'star-and-watch': buildInitialCourseState('star-and-watch'),
+  23 |      ,
+     |      ^
+  24 |      
+  25 |    }
+  [39m
+      at failureErrorWithLog (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1748:15)
+      at D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1017:50
+      at responseCallbacks.<computed> (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:884:9)
+      at handleIncomingPacket (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:939:12)
+      at Socket.readFromStdout (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:862:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m22:10:48[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\develop\project\GitGuide\src\App.tsx: Expecting Unicode escape sequence \uXXXX. (59:18)
+
+[0m [90m 57 |[31m       [36mconst[31m nextCourse [33m=[31m courses[33m.[31mfind(c [33m=>[31m c[33m.[31morder [33m===[31m currentCourse[33m.[31morder [33m+[31m [35m1[31m)
+ [90m 58 |[31m       [36mif[31m (nextCourse) {
+[31m[1m>[22m[31m[90m 59 |[31m         navigate([37m[41m[1m\[22m[49m[31m[33m/[31mcourse[33m/[31m[37m[41m[1m\[22m[49m[31m)
+ [90m    |[31m                   [31m[1m^[22m[31m
+ [90m 60 |[31m       } [36melse[31m {
+ [90m 61 |[31m         alert(t({ en[33m:[31m [32m'You have finished all courses!'[31m[33m,[31m zh[33m:[31m [32m'你已完成所有的课程！'[31m }[33m,[31m progress[33m.[31mlanguage))
+ [90m 62 |[31m         navigate([32m'/'[31m)[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/develop/project/GitGuide/src/App.tsx[39m:59:18
+[33m  59 |          navigate(\/course/\)
+  60 |        } else {
+  61 |          alert(t({ en: 'You have finished all courses!', zh: '你已完成所有的课程！' }, progress.language))
+     |                                  ^
+  62 |          navigate('/')
+  63 |        }[39m
+      at constructor (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.readWord1 (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6559:16)
+      at TypeScriptParserMixin.readWord (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6579:23)
+      at TypeScriptParserMixin.getTokenFromCode (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:6298:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:4797:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9987:11)
+      at TypeScriptParserMixin.nextToken (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5782:10)
+      at TypeScriptParserMixin.next (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:5692:10)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11169:10)
+      at TypeScriptParserMixin.parseSubscript (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12895:23)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12757:17)
+      at TypeScriptParserMixin.parseIfStatement (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13130:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12796:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13297:10)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12858:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:12757:17)
+      at TypeScriptParserMixin.parseIfStatement (D:\develop\project\GitGuide\node_modules\@babel\parser\lib\index.js:13131:42)
+[2m22:16:05[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/progress.ts:23:4: ERROR: Expected identifier but found ","
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/progress.ts[39m:23:4
+[33m  
+  [33mExpected identifier but found ","[33m
+  21 |      'read-repository': buildInitialCourseState('read-repository'),
+  22 |      'star-and-watch': buildInitialCourseState('star-and-watch'),
+  23 |      ,
+     |      ^
+  24 |      
+  25 |    }
+  [39m
+[2m22:16:05[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/progress.ts:23:4: ERROR: Expected identifier but found ","[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/progress.ts[39m:23:4
+[33m  
+  [33mExpected identifier but found ","[33m
+  21 |      'read-repository': buildInitialCourseState('read-repository'),
+  22 |      'star-and-watch': buildInitialCourseState('star-and-watch'),
+  23 |      ,
+     |      ^
+  24 |      
+  25 |    }
+  [39m
+      at failureErrorWithLog (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1748:15)
+      at D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1017:50
+      at responseCallbacks.<computed> (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:884:9)
+      at handleIncomingPacket (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:939:12)
+      at Socket.readFromStdout (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:862:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m22:16:12[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/progress.ts:23:4: ERROR: Expected identifier but found ","[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/progress.ts[39m:23:4
+[33m  
+  [33mExpected identifier but found ","[33m
+  21 |      'read-repository': buildInitialCourseState('read-repository'),
+  22 |      'star-and-watch': buildInitialCourseState('star-and-watch'),
+  23 |      ,
+     |      ^
+  24 |      
+  25 |    }
+  [39m
+      at failureErrorWithLog (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1748:15)
+      at D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1017:50
+      at responseCallbacks.<computed> (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:884:9)
+      at handleIncomingPacket (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:939:12)
+      at Socket.readFromStdout (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:862:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m22:16:17[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/progress.ts:23:4: ERROR: Expected identifier but found ","[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/progress.ts[39m:23:4
+[33m  
+  [33mExpected identifier but found ","[33m
+  21 |      'read-repository': buildInitialCourseState('read-repository'),
+  22 |      'star-and-watch': buildInitialCourseState('star-and-watch'),
+  23 |      ,
+     |      ^
+  24 |      
+  25 |    }
+  [39m
+      at failureErrorWithLog (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1748:15)
+      at D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1017:50
+      at responseCallbacks.<computed> (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:884:9)
+      at handleIncomingPacket (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:939:12)
+      at Socket.readFromStdout (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:862:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m22:19:03[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+D:/develop/project/GitGuide/src/progress.ts:23:4: ERROR: Expected identifier but found ","[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/develop/project/GitGuide/src/progress.ts[39m:23:4
+[33m  
+  [33mExpected identifier but found ","[33m
+  21 |      'read-repository': buildInitialCourseState('read-repository'),
+  22 |      'star-and-watch': buildInitialCourseState('star-and-watch'),
+  23 |      ,
+     |      ^
+  24 |      
+  25 |    }
+  [39m
+      at failureErrorWithLog (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1748:15)
+      at D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:1017:50
+      at responseCallbacks.<computed> (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:884:9)
+      at handleIncomingPacket (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:939:12)
+      at Socket.readFromStdout (D:\develop\project\GitGuide\node_modules\esbuild\lib\main.js:862:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+^C
